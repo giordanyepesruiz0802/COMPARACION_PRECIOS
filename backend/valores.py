@@ -36,15 +36,15 @@ valor1= pd.Series([# creamos el vector de la apertura por malla
     0.85,
     0.425,
     0.250,
-    0.150,
-    0.075,
+    0.10,
+    0.75,
     0
   ])
 
 valor2= pd.Series([# creamos el vector de la apertura por malla
     37.5,
     25,
-    19,
+    1,
     9.5,
     4.75,
     2,
