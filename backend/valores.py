@@ -13,18 +13,18 @@ item1=[0,0, #DEFINIMOS UN VECTOR PARA LOS VALORES RETENIDOS EN CADA TAMIZ
     "CONCRETO",
     "CONCRETO"]
 item2= pd.Series([# creamos el vector de la malla
-    "1 1/2",
-    "1",
-    "3/4",
-    "3/8",
-    "No. 4",
-    "No. 10",
-    "No. 20",
-    "No. 40",
-    "No. 60",
-    "No. 100",
-    "No. 200",
-    "Fondo"
+    "CONCRETO",
+    "CONCRETO",
+    "CONCRETO",
+    "CONCRETO",
+    "CONCRETO",
+    "CONCRETO",
+    "CONCRETO",
+    "CONCRETO",
+    "CONCRETO",
+    "CONCRETO",
+    "CONCRETO",
+    "CONCRETO"
   ])
 valor1= pd.Series([# creamos el vector de la apertura por malla
     37.5,
