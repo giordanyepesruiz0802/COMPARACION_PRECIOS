@@ -1,8 +1,8 @@
 import dash
 import dash_bootstrap_components as dbc 
-from dash import html, Dash,dcc,Input,Output,callback
+from dash import html, Dash,dcc,Input,Output,callback,dash_table
 
-from backend.granulometria import granulometria
+# from backend.granulometria import granulometria
 
 Izquierda_3= dbc.Container([
    html.H1("VALOR UNITARIO COMPARADO"),
@@ -11,6 +11,6 @@ Izquierda_3= dbc.Container([
       columns=[
           {'name':'PRECIO UNITARIO','id':'PRECIO UNITARIO','editable':False},
         ],
-    data= granulometria.to_dict('record')
+    # data= granulometria.to_dict('record')
   )
 ])

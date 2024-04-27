@@ -6,7 +6,7 @@ from .area_derecha.derecha1 import Derecha_1
 from .area_derecha.derecha2 import Derecha_2
 
 
-Izquierda= dbc.Container([
+Derecha= dbc.Container([
     dbc.Row([
         dbc.Col(Derecha_1,md=2,style={'background-color':'grey61'}),
         dbc.Col(Derecha_2,md=2,style={'background-color':'PaleGreen3'})

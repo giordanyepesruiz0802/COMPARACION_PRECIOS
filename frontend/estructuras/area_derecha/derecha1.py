@@ -1,6 +1,6 @@
 import dash
 import dash_bootstrap_components as dbc 
-from dash import html, Dash,dcc,Input,Output,callback
+from dash import html, Dash,dcc,Input,Output,callback,dash_table
 
 from backend.valores import valor_2
 
@@ -16,14 +16,3 @@ Derecha_1= dbc.Container([
         
     ]
 )
-
-@app.callback(
-        Output('tabla_valor_2','data'),
-        Input('tabla_valor_2','data'),
-        Input('tabla_valor_2','columns')
-)
-
-def update_granulometria_table(rows,columns):
-    valor_2= pd.DataFrame(rows)
-    
-    return valor_2.to_dict('record')
