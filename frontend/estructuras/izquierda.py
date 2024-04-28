@@ -7,7 +7,7 @@ from .area_izquierda.izquierda2 import Izquierda_2
 
 Izquierda= dbc.Container([
     dbc.Row([
-        dbc.Col(Izquierda_1,md=6,style={'background-color':'PaleGreen3'}),
+        dbc.Col(Izquierda_1,md=6,style={'background-color':'cadetblue'}),
         dbc.Col(Izquierda_2,md=6,style={'background-color':'grey61'}),
 
     ])
