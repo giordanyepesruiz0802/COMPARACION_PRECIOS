@@ -2,62 +2,62 @@ import pandas as pd
 
 item1 = [
     "CONCRETO",
-    "CONCRETO",
-    "CONCRETO",
-    "CONCRETO",
-    "CONCRETO",
-    "CONCRETO",
-    "CONCRETO",
-    "CONCRETO",
-    "CONCRETO",
-    "CONCRETO",
-    "CONCRETO",
-    "CONCRETO"
+    "ACERO",
+    "MADERA",
+    "VINILO",
+    "PINTURA",
+    "CIELO RASO",
+    "CERAMICA",
+    "MORTERO",
+    "CARPINTERIA",
+    "BALDOSA",
+    "MANO DE OBRA",
+    "VIDRIOS"
 ]
 
 item2 = [
     "CONCRETO",
-    "CONCRETO",
-    "CONCRETO",
-    "CONCRETO",
-    "CONCRETO",
-    "CONCRETO",
-    "CONCRETO",
-    "CONCRETO",
-    "CONCRETO",
-    "CONCRETO",
-    "CONCRETO",
-    "CONCRETO"
+    "ACERO",
+    "MADERA",
+    "VINILO",
+    "PINTURA",
+    "CIELO RASO",
+    "CERAMICA",
+    "MORTERO",
+    "CARPINTERIA",
+    "BALDOSA",
+    "MANO DE OBRA",
+    "VIDRIOS"
 ]
 
 valor1 = [
-    37.5,
-    25,
-    19,
-    9.5,
-    4.75,
-    2,
-    0.85,
-    0.425,
-    0.250,
-    0.10,
-    0.75,
-    0
+    5000,
+    3000,
+    2500,
+    3600,
+    4800,
+    20000,
+    25000,
+    8500,
+    9200,
+    7000,
+    1000,
+    800
 ]
 
 valor2 = [
-    37.5,
-    25,
-    1,
-    9.5,
-    4.75,
-    2,
-    0.85,
-    0.425,
-    0.250,
-    0.150,
-    0.075,
-    0
+    10000,
+    25000,
+    11000,
+    9500,
+    4700,
+    2000,
+    8500,
+    4250,
+    2500,
+    1500,
+    750,
+    250
 ]
 
 item_1 = pd.DataFrame({
@@ -81,10 +81,3 @@ max_values = pd.DataFrame({
     "VALOR_MENOR": [min(v1, v2) for v1, v2 in zip(valor1, valor2)]
 })
 
-# Concatenar las nuevas columnas a los DataFrames existentes
-#item_1 = pd.concat([item_1, max_values], axis=1)
-#item_2 = pd.concat([item_2, max_values], axis=1)
-
-#print(item_1)
-#print("\n")
-#print(item_2)
