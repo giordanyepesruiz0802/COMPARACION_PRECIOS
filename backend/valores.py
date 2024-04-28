@@ -76,7 +76,7 @@ valor_2 = pd.DataFrame({
     "PRECIO_UNITARIO_2": valor2
 })
 
-# Crear la tercera columna con el valor mayor entre valor1 y valor2
+
 max_values = pd.DataFrame({
     "VALOR_MENOR": [min(v1, v2) for v1, v2 in zip(valor1, valor2)]
 })

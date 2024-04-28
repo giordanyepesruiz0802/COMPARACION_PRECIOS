@@ -7,6 +7,7 @@ from .estructuras.izquierda import Izquierda
 from .estructuras.Centro import centro_l
 
 
+
 Layout= dbc.Container([
     dbc.Row([
         dbc.Col(Izquierda,md=4,style={'background-color':'cadetblue'}),
