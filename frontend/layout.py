@@ -4,12 +4,14 @@ from dash import html, Dash,dcc,Input,Output,callback
 
 from .estructuras.derecha import Derecha
 from .estructuras.izquierda import Izquierda
+from .estructuras.Centro import centro_l
 
 
 Layout= dbc.Container([
     dbc.Row([
-        dbc.Col(Izquierda,md=7,style={'background-color':'red'}),
-        dbc.Col(Derecha,md=5,style={'background-color':'skyblue'}),
+        dbc.Col(Izquierda,md=4,style={'background-color':'red'}),
+        dbc.Col(centro_l,md=4),
+        dbc.Col(Derecha,md=4,style={'background-color':'skyblue'}),
 
     ])
 

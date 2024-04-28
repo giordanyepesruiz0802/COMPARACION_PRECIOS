@@ -8,8 +8,8 @@ from .area_derecha.derecha2 import Derecha_2
 
 Derecha= dbc.Container([
     dbc.Row([
-        dbc.Col(Derecha_1,md=2,style={'background-color':'grey61'}),
-        dbc.Col(Derecha_2,md=2,style={'background-color':'PaleGreen3'})
+        dbc.Col(Derecha_1,md=6,style={'background-color':'grey61'}),
+        dbc.Col(Derecha_2,md=6,style={'background-color':'PaleGreen3'})
 
 
     ])
